@@ -8,6 +8,6 @@ class Song
   end
 
   def artist
-    @artist = Artist.new
+    @artist
   end
 end
