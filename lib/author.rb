@@ -1,7 +1,7 @@
 require_relative "post.rb"
 
 class Author
-  attr_accessor :name
+  attr_accessor :name, :posts
 
   def initialize(name)
     @name = name
@@ -12,9 +12,9 @@ class Author
     @posts
   end
 
-  def add_post(post)
-    @posts << post
-    post.author = self
+  def add_post(posts)
+    @posts << posts
+    posts.author = self
   end
 
 end
