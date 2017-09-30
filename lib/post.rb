@@ -1,5 +1,5 @@
 require_relative "author.rb"
 
-class Post 
+class Post
 
 end
