@@ -11,9 +11,6 @@ class Post
    @title
  end
 
- def author
-   author = Author.new
- end
 
  def author_name
    if self.author == nil
